@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1 class="header">Dice Game</h1>
+  
+  <h2 class="h2" id="instructions" >Score 20 to win, roll 1 to lose. <p>Click image below to start. Click 'Replay' to restart</p>
+  </h2>
+
+  <div class="maincontainer">
+    <div class="p1box">
+      <div id="p1"></div>
+      <div class="newGame" id="newGame">
+        <button id="newGame">
+          <p>NEW GAME</p>
+        </button>
+      </div>
+
+     <div id="p1Roll">
+      <img class="dice" id="diceImage" src="" alt="">
+     </div>
+      <div class="score" id="scoreTotal">Total Score</div>
+      <button id="reset">Replay</button>
+
+
+    </div>
+
+
+  </div>
+
+  <audio controls autoplay loop class="invisible-audio">
+    <source src="./music/1.mp3" type="audio/mpeg">
+  </audio>
+  
+
+
+ <script src="./script.js"></script>
+</body>
+
+</html>
